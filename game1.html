@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Games | Breakout Game</title>
+     <link href="img/l.png" rel="icon">
+    <style>
+    	* { padding: 1%; margin: 1%; }
+    	 html{
+      min-height:100vh;
+     }
+     body{
+      margin:0;
+      background: radial-gradient(#673ab778,#673ab7);
+     }
+    	h1{
+    		text-align:center;
+    		color:#042330;
+    		text-decoration-line:underline;
+    	}
+    	canvas { 
+	    	background: #eee; 
+	    	display: block; 
+	    	margin-top:10%;
+	    	border:purple solid;
+	    	border-radius:5%;
+	    	box-shadow:0px 8px 16px 0px purple;
+	    	margin-left:33%;
+	    	 }
+	   @media screen and (max-width: 1369px){
+	   	canvas{
+	   		margin-top:15%;
+	   		margin-left:25%;
+	   	}
+	   	h1{
+	   		margin-top:10%;
+	   		text-decoration-line:underline;
+	   	}
+	   } 
+
+	   .downtext
+       {
+        margin-top:10%;
+        text-align: center;
+        bottom:0;
+        position:relative;
+       }
+      .downtext2
+      {
+        text-align: center;
+        bottom:0;
+        position: relative;
+      }
+      @media screen and (max-width:1369px)
+      {
+       .downtext{
+        margin-top:40%;
+        text-align: center;
+        bottom:0;
+        position:relative;
+       }
+      }	 
+    </style>
+</head>
+<body>
+ <h1>BREAKOUT GAME</h1>
+
+<canvas id="myCanvas" width="480" height="320"></canvas>
+<footer>
+    <div class="downtext">
+     &copy; Copyright <strong><span>THE GAMING ZONE</span></strong>. All Rights Reserved
+    </div>
+    <div class="downtext2">
+        </h3><strong class="po">Designed by Shreya Srivastava</strong></h3> 
+      </div> 
+ </footer>     
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
